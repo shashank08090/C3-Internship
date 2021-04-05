@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#Page1{
+    width: 100%;
+    height: 20vh;
+    background-color: aliceblue;
+}
+#img1{
+    height: 12vh;
+    width: 8vw;
+    border-radius: 50%;
+    margin:2%;
+    padding:1%;
+    display: inline;
+    
+}
+#notif{
+    float:right;
+    height: 12vh;
+    width: 8vw;
+    border-radius: 50%;
+    
+    margin-top:1%;
+    padding:1%;
+    display: inline;
+    
+    
+    
+}
+#notif:hover{
+    width:9vw ;
+    height: 13vh;
+}
+
+#img1:hover{
+    width:9vw ;
+    height: 13vh;
+}
+#pic{
+    
+
+    float:right;
+    height: 12vh;
+    width: 8vw;
+    border-radius: 50%;
+    
+    margin-top:1%;
+    padding:1%;
+    display:inline;
+    
+}
+
+#pic:hover{
+    width:9vw ;
+    height: 13vh;
+}
+#h1{
+    display: inline;
+    float:right;
+    height: 12vh;
+    width: 8vw;
+    border-radius: 50%;
+    
+    margin-top:1%;
+    padding:1%;
+    display:inline;
+
+}
+
+@media screen and (max-width: 992px) {
+h1 {
+      display: none;
+    }
+  }

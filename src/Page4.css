@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Page4{
+    
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#graph{
+    margin-top:15vh;
+    height: 100%;
+    width: 40vw;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
