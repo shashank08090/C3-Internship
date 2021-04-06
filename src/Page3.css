@@ -7,23 +7,26 @@
 #Page3{
     display:grid;
     grid-template-columns: 15% 85%;
+    
     height: 50vh;
     width: 100vw;
-    outline: 2px solid blue;
+    
     
 }
 #dash, #rest{
-    outline:2px solid green;
+    
 }
 #dash{
     display: grid;
     grid-template-rows: 33% 33% 34%;
+    background: linear-gradient(to top left,grey,white);
 }
 
 #courses , #achievements,  #forum{
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 #rest{
@@ -33,18 +36,19 @@ align-items: center;
 
 #mycourses , #homework
 {
-    outline: 2px solid violet;
+   
 }
 #homework{
     display: flex;
 justify-content: center;
 align-items: center;
+
 }
 #mycourses{
     display: grid;
     grid-template-rows: 20% 90%;
     
-    
+    background: linear-gradient(to top left,silver,white);
 
 }
 
@@ -65,8 +69,11 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #maths , #physics{
-    outline: 1px solid red;
+height: 100%;
+width: 100%;
+border-radius: 10px;
 }

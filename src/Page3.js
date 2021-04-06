@@ -15,14 +15,16 @@ function Page3() {
                     <div id="info"><h1 id="lef">My courses</h1> 
                     <h1 id="righ">See All</h1></div>
                     <div id="subjects">
-                        <div id="maths"><h1>Maths</h1></div>
-                        <div id="physics"><h1>Physics</h1></div>
+                        <div id="maths"><img src="../images/maths.jpg" alt="maths" id="maths"></img></div>
+                        <div id="physics"><img src="../images/physics.jpg" alt="physics" id="physics">
+                            </img></div>
                     </div>
                 </div>
-                <div id="homework"><h1>Homework progress</h1></div>
+                <div id="homework"><img src="../images/homework.png" alt="homework" id="homework">
+                    </img></div>
 
             </div>
-            
+             
         </div>
     )
 }

@@ -4,7 +4,8 @@ import './Page4.css';
 function Page4() {
     return (
         <div id="Page4">
-            <div id="graph"><h1>Graph</h1></div>
+            <div id="graph"><img src="../images/graph4.jpg" alt="graph" id="graph">
+                </img></div>
         </div>
     )
 }

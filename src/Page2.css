@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    border-radius:10px;
 }
 
 #Page2{
@@ -13,7 +14,8 @@
     
 }
  #item2, #item3 , #item4{
-    outline: 2px solid green;
+    
+    margin:5px;
 }
 #item2{
     display:grid;
@@ -22,9 +24,10 @@
     padding:4px;
 }
 #in2 , #in3 , #in4{
-    outline: 2px solid black;
+    
     margin: 2px;
     padding: 2px;
+    background: linear-gradient(to top left,silver,white);
 }
 #in1 {
     display: flex;
@@ -52,6 +55,7 @@
 #item1{
     display:grid;
     grid-template-rows: 50% 50%;
+    background: linear-gradient(to top left,silver,grey);
 }
 
 #home, #dashboard{
@@ -59,4 +63,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#todo{
+    background: linear-gradient(to top right,grey,yellow);
+    height: 100%;
+    width: 100%;
+}
+#todo:hover{
+    height: 101%;
+    width: 101%;
+    transition-timing-function: ease;
+}
+#leader{
+    background: linear-gradient(to top right,grey,yellow);
+    height: 100%;
+    width: 100%;
 }
